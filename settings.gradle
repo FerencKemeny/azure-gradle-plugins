@@ -3,10 +3,12 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 
-repositories {
-    mavenLocal()
-    mavenCentral()
-    jcenter()
+pluginManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
 }
 
 rootProject.name = 'azure-gradle-plugins'
